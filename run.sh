@@ -1,0 +1,1 @@
+python Clover-main.py --model 'lenet5' --dataset 'mnist' --partition_method 'IID' --method='FedAvg' --batch_size 50 --lr 0.1 --epochs 30 --client_num_in_total 100 --frac 0.1 --comm_round 1 --C 0.1 --sigma 0.8 --gpu 1 --alpha 0.005
